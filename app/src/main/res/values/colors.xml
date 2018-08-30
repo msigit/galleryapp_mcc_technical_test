@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#039BE5</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorPrimaryLight">#4FC3F7</color>
+    <color name="colorAccent">#FF4081</color>
+
+	<color name="colorWhite">#ffffff</color>
+    <color name="colorWhiteLight">#e7e7e7</color>
+    <color name="colorWhiteTransparent">#b4ffffff</color>
+
+    <color name="colorBlack">#39444b</color>
+    <color name="colorBlackSemiTransparent">#890b0b0b</color>
+    <color name="colorBlackTransparent">#19000000</color>
+
+    <color name="material_teal">#009688</color>
+    <color name="material_teal_light">#B2DFDB</color>
+    <color name="material_teal_dark">#00796B</color>
+
+    <color name="spinnerHintTextColor">#890b0b0b</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#e0757575</color>
+    <color name="icons">#FFFFFF</color>
+
+    <color name="divider">#BDBDBD</color>
+    <color name="warning">#fde90e</color>
+    <color name="danger">#ff3e30</color>
+    <color name="success">#08de05</color>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Gallery App</string>
+
+
+    <string name="camera_permission_warning">Camera permission needed</string>
+    <string name="write_permission_warning">Data Write permission needed</string>
+
+
+    <!-- Button Text String -->
+    <string name="sign_in_text">Log in</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="reset_password_title">Reset Password</string>
+    <string name="submit_text">Submit</string>
+    <string name="send_text">Send</string>
+    <string name="apply_text">Apply</string>
+    <string name="verify_text">Verify</string>
+
+
+    <!-- Toolbar Title String -->
+    <string name="toolbar_profile_edit">Profile Edit</string>
+
+
+    <!-- Toolbar Menu String -->
+    <string name="toolbar_search">Search</string>
+
+
+    <!-- Toast message String -->
+    <string name="internet_connect_error">No Internet Connection</string>
+
+
+</resources>
