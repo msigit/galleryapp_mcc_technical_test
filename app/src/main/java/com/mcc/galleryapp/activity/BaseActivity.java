@@ -49,9 +49,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     public CustomLoadingDialog progressDialog;
     public ApiInterface getApiCallInstance;
 
-    static {
-        System.loadLibrary("native-lib");
-    }
+    private String base_url = "http://nationalappsbangladesh.com/mobsvc/";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -59,7 +57,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         lockActivityOrientation(this);
 
         progressDialog = new CustomLoadingDialog(this);
-        getApiCallInstance = ApiClient.getApiClient(getApiBaseUrl()).create(ApiInterface.class);
+        getApiCallInstance = ApiClient.getApiClient(base_url).create(ApiInterface.class);
     }
 
     public void setDefaultToolbar(Toolbar toolbar, @Nullable CharSequence toolbarTitle) {
@@ -244,6 +242,4 @@ public abstract class BaseActivity extends AppCompatActivity {
     public static String getDeviceId(Context context) {
         return Settings.System.getString(context.getContentResolver(), Settings.Secure.ANDROID_ID);
     }
-
-    public static native String getApiBaseUrl();
 }
